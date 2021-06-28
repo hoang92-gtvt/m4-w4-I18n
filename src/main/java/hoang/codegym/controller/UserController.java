@@ -15,4 +15,9 @@ public class UserController {
         return mav;
 
     }
+    @GetMapping("/board")
+        public ModelAndView boarPage(){
+        ModelAndView mav = new ModelAndView("/board");
+           return mav;
+    }
 }
